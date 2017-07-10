@@ -1,0 +1,9 @@
+[input]
+target=/home/chenz/production/longonly/1_target/hy3/datafold/%Y%m%d.csv
+holdfile=/samba/prod_info/hy3/%Y%m%d/alpha/alpha_shares.hy3.%Y%m%d
+ftype=xtfs
+
+[output]
+buyfile=datafold/hy3_adjbuy_%Y%m%d.csv
+selfile=datafold/hy3_adjsel_%Y%m%d.csv
+csvfile=datafold/hy3_adjust_%Y%m%d.csv

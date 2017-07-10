@@ -1,0 +1,6 @@
+[input]
+datafile=/home/chenz/DATA/group20/dataframe/%Y%m%d
+stocknum=60
+
+[output]
+datafold=datafold/%Y%m%d.csv

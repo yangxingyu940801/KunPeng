@@ -1,0 +1,9 @@
+[input]
+target=/home/chenz/production/longonly/1_target/xc3/datafold/%Y%m%d.csv
+holdfile=/samba/prod_info/yx_xc3/%Y%m%d/dz/dz_shares.yx_xc3.%Y%m%d
+ftype=xtfs
+
+[output]
+buyfile=datafold/xc3_adjbuy_%Y%m%d.csv
+selfile=datafold/xc3_adjsel_%Y%m%d.csv
+csvfile=datafold/xc3_adjust_%Y%m%d.csv

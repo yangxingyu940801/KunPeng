@@ -1,0 +1,1 @@
+/home/chenz/gitstore/longonly/adjust.sh

@@ -1,0 +1,8 @@
+[input]
+holdfile=/samba/prod_info/hy2/%Y%m%d/alpha/alpha_shares.hy2.%Y%m%d
+wghtfile=/home/chenz/production/longonly/1_target/hy2/datafold/%Y%m%d.csv
+openfile=/home/chenz/production/longonly/2_newopen/hy2/datafold/hy2open_%Y%m%d.csv
+adjtfile=/home/chenz/production/longonly/3_adjust/hy2/datafold/hy2_adjust_%Y%m%d.csv
+
+[output]
+csvfile=datafold/hy2_check_%Y%m%d.csv

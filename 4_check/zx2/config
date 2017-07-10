@@ -1,0 +1,8 @@
+[input]
+holdfile=/samba/prod_info/yx_zx2/%Y%m%d/dz/dz_shares.yx_zx2.%Y%m%d
+wghtfile=/home/chenz/production/longonly/1_target/zx2/datafold/%Y%m%d.csv
+openfile=/home/chenz/production/longonly/2_newopen/zx2/datafold/zx2open_%Y%m%d.csv
+adjtfile=/home/chenz/production/longonly/3_adjust/zx2/datafold/zx2_adjust_%Y%m%d.csv
+
+[output]
+csvfile=datafold/zx2_check_%Y%m%d.csv

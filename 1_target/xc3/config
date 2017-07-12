@@ -10,16 +10,16 @@ signal_mid500=/home/chenz/production/longonly/0_signal/mid500/datafold/%Y%m%d/op
 weight_botfree=6.68
 signal_botfree=/home/chenz/production/longonly/0_signal/botfree/datafold/%Y%m%d.csv
 
-weight_ai=0.0
+weight_ai=0.00
 signal_ai=/home/chenz/production/longonly/0_signal/others/AI/datafold/aimodel.csv
 
-weight_cx=0.0
+weight_cx=0.00
 signal_cx=/home/chenz/production/longonly/0_signal/others/CX/datafold/cxmodel.csv
 
-weight_lc=2.2
+weight_lc=2.20
 signal_lc=/home/chenz/production/longonly/0_signal/others/LC/datafold/lcmodel.csv
 
-weight_xny=0.0
+weight_xny=0.00
 signal_xny=/home/chenz/production/longonly/0_signal/others/XNY/datafold/xnymodel.csv
 
 

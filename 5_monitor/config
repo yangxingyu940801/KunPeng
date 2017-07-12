@@ -1,15 +1,9 @@
 [input]
-hy1=/samba/prod_info/hy1/yyyymmdd/alpha/alpha_shares.hy1.yyyymmdd
-dzsig=/home/chenz/production/goldmine/0_signal/DZ/tradestock/yyyymmdd.csv
-dzall=/home/chenz/production/goldmine/0_signal/DZ/rawseoinfo/raw_yyyymmdd.csv
-ggsig=/home/chenz/production/goldmine/0_signal/GG/tradestock/yyyymmdd.csv
-ggall=/home/chenz/production/goldmine/0_signal/GG/UnivStaRef
-
-rzygg=/home/chenz/production/goldmine/0_signal/RZYGG/tradestock/yyyymmdd.csv
-rzygr=/home/chenz/production/goldmine/0_signal/RZYGR/tradestock/yyyymmdd.csv
-rzyva=/home/chenz/production/goldmine/0_signal/RZYVA/tradestock/yyyymmdd.csv
-rzylm=/home/chenz/production/goldmine/0_signal/RZYLM/tradestock/yyyymmdd.csv
+hy1=/samba/prod_info/hy1/%Y%m%d/alpha/alpha_shares.hy1.%Y%m%d
+top250=/home/chenz/production/longonly/0_signal/top250/datafold/%Y%m%d/optfile
+mid500=/home/chenz/production/longonly/0_signal/mid500/datafold/%Y%m%d/optfile
+botfree=/home/chenz/production/longonly/0_signal/botfree/datafold/%Y%m%d.csv
 
 
 [output]
-outfile=output/mon_yyyymmdd.xlsx
+outfile=datafold/mon_%Y%m%d.xlsx

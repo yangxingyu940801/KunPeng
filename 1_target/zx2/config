@@ -1,10 +1,10 @@
 [input]
 limit=0.0001
 
-weight_top250=4.07
+weight_top250=4.08
 signal_top250=/home/chenz/production/longonly/0_signal/top250/datafold/%Y%m%d/optfile
 
-weight_mid500=4.07
+weight_mid500=4.08
 signal_mid500=/home/chenz/production/longonly/0_signal/mid500/datafold/%Y%m%d/optfile
 
 weight_botfree=2.04

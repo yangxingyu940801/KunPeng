@@ -1,0 +1,8 @@
+[input]
+limit=0.0001
+
+weight_top250=100.00
+signal_top250=/home/chenz/production/longonly/0_signal/top250/datafold/%Y%m%d/optfile
+
+[output]
+outfile=datafold/%Y%m%d.csv

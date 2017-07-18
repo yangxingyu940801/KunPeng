@@ -28,9 +28,9 @@ host="chenz@192.168.2.180:/samba/0_Long_Prod"
 rsync -avm 0_signal/top250/datafold/${date}/optfile     ${host}/monitor/top250/${date}.csv
 rsync -avm 0_signal/mid500/datafold/${date}/optfile     ${host}/monitor/mid500/${date}.csv
 rsync -avm 0_signal/botfree/datafold/${date}.csv        ${host}/monitor/botfree/${date}.csv
-# rsync -avm 2_newopen/top250/datafold/*_open_${date}.*  ${host}/open/top250/
-# rsync -avm 2_newopen/mid500/datafold/*_open_${date}.*  ${host}/open/mid500/
-# rsync -avm 2_newopen/botfree/datafold/*_open_${date}.* ${host}/open/botfree/
+rsync -avm 2_newopen/top250/datafold/*_open_${date}.*  ${host}/open/top250/
+rsync -avm 2_newopen/mid500/datafold/*_open_${date}.*  ${host}/open/mid500/
+rsync -avm 2_newopen/botfree/datafold/*_open_${date}.* ${host}/open/botfree/
 for prod in hy1 hy2 hy3 hy5 hy7 zx2 xc3 rzy1; do
   rsync -avm 2_newopen/${prod}/datafold/*_${prod}open_${date}.*       ${host}/open/${prod}/
   rsync -avm  3_adjust/${prod}/datafold/${prod}_adj[b,s]*_${date}.*   ${host}/adjust/${prod}/

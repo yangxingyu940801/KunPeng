@@ -8,5 +8,7 @@ IC150_XI=/13data/xipw/XiProduction/optfile_XiIC150_%Y%m%d
 IC150_TR=/13data/moneymaker/product_data/2_optimize/V_IC_150/history/%Y%m%d/optfile
 IC150_CZ=/13data/moneymaker/product_data/2_optimize/V_IC_150_CZ/history/%Y%m%d/optfile
 
+DZ=/home/chenz/production/goldmine/0_signal/DZ/tradestock/%Y%m%d.csv.forshow
+
 [output]
 outfile=datafold/mon_%Y%m%d.xlsx

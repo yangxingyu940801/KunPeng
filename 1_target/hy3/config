@@ -1,13 +1,13 @@
 [input]
 limit=0.0001
 
-weight_top250=13.88
+weight_top250=13.94
 signal_top250=/home/chenz/production/longonly/0_signal/top250/datafold/%Y%m%d.csv
 
-weight_mid500=10.41
+weight_mid500=10.46
 signal_mid500=/home/chenz/production/longonly/0_signal/mid500/datafold/%Y%m%d.csv
 
-weight_botfree=10.41
+weight_botfree=10.46
 signal_botfree=/home/chenz/production/longonly/0_signal/botfree/datafold/%Y%m%d.csv
 
 weight_ai=0.00
@@ -22,10 +22,10 @@ signal_lc=/home/chenz/production/longonly/0_signal/others/LC/datafold/lcmodel.cs
 weight_xny=0.00
 signal_xny=/home/chenz/production/longonly/0_signal/others/XNY/datafold/xnymodel.csv
 
-weight_xa=1.50
+weight_xa=0.75
 signal_xa=/home/chenz/production/longonly/0_signal/others/XA/datafold/xamodel.csv
 
-weight_apple=0.50
+weight_apple=1.25
 signal_apple=/home/chenz/production/longonly/0_signal/others/APPLE/datafold/apple.csv
 
 [output]

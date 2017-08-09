@@ -20,6 +20,9 @@ cd 2_newopen; bash newopen.sh ${date} ; cd ${cwd}
 cd 3_adjust ; bash adjust.sh  ${date} ; cd ${cwd}
 cd 4_check  ; bash check.sh   ${date} ; cd ${cwd}
 
+cd 1_target_forcomb ; bash target.sh  ${date} ; cd ${cwd}
+cd 2_newopen_forcomb; bash newopen.sh ${date} ; cd ${cwd}
+
 ##########################################################################
 
 # rsync data to samba server  #
@@ -31,8 +34,8 @@ rsync -avm 0_signal/botfree/datafold/${date}.csv        ${host}/monitor/botfree/
 rsync -avm 2_newopen/top250/datafold/*_open_${date}.*   ${host}/open/top250/
 rsync -avm 2_newopen/mid500/datafold/*_open_${date}.*   ${host}/open/mid500/
 rsync -avm 2_newopen/botfree/datafold/*_open_${date}.*  ${host}/open/botfree/
-for prod in hy1 hy2 hy3 hy5 hy7 zx2 xc3 rzy1; do
-  rsync -avm 2_newopen/${prod}/datafold/*_${prod}open_${date}.*       ${host}/open/${prod}/
-  rsync -avm  3_adjust/${prod}/datafold/${prod}_adj[b,s]*_${date}.*   ${host}/adjust/${prod}/
-  rsync -avm   4_check/${prod}/datafold/${prod}_check_${date}.csv     ${host}/adjust/${prod}/
+for prod in hy1 hy2 hy3 hy5 hy7 zx2 rzy1; do
+  rsync -avm 2_newopen_forcomb/${prod}/datafold/*_${prod}_openComb_${date}.*    ${host}/open/${prod}/
+  rsync -avm 3_adjust/${prod}/datafold/${prod}_adj[b,s]*_${date}.*              ${host}/adjust/${prod}/
+  rsync -avm 4_check/${prod}/datafold/${prod}_check_${date}.csv                 ${host}/adjust/${prod}/
 done

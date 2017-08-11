@@ -1,0 +1,8 @@
+[input]
+target=/home/chenz/production/longonly/1_target/hy6/datafold/%Y%m%d.csv
+
+[output]
+pbgj_file=datafold/pbgj_hy6open_%Y%m%d.xls
+pbgf_file=datafold/pbgf_hy6open_%Y%m%d.xls
+xtfs_file=datafold/xtfs_hy6open_%Y%m%d.csv
+csvfile=datafold/hy6open_%Y%m%d.csv

@@ -1,13 +1,13 @@
 [input]
 limit=0.0001
 
-weight_top250=11.78
+weight_top250=11.86
 signal_top250=/home/chenz/production/longonly/0_signal/top250/datafold/%Y%m%d.csv
 
-weight_mid500=8.83
+weight_mid500=8.90
 signal_mid500=/home/chenz/production/longonly/0_signal/mid500/datafold/%Y%m%d.csv
 
-weight_botfree=8.83
+weight_botfree=8.90
 signal_botfree=/home/chenz/production/longonly/0_signal/botfree/datafold/%Y%m%d.csv
 
 [output]

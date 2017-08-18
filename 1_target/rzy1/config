@@ -28,5 +28,8 @@ signal_xa=/home/chenz/production/longonly/0_signal/others/XA/datafold/xamodel.cs
 weight_apple=2.00
 signal_apple=/home/chenz/production/longonly/0_signal/others/APPLE/datafold/apple.csv
 
+weight_ppp=0.00
+signal_ppp=/home/chenz/production/longonly/0_signal/others/PPP/datafold/pppmodel.csv
+
 [output]
 outfile=datafold/%Y%m%d.csv

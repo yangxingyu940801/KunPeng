@@ -34,5 +34,8 @@ signal_ppp=/home/chenz/production/longonly/0_signal/others/PPP/datafold/pppmodel
 weight_xitu=0.00
 signal_xitu=/home/chenz/production/longonly/0_signal/others/XITU/datafold/xitu.csv
 
+weight_gjd=0.00
+signal_gjd=/home/chenz/production/longonly/0_signal/others/GJD/datafold/gjdmodel.csv
+
 [output]
 outfile=datafold/%Y%m%d.csv

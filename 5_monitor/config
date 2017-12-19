@@ -1,14 +1,12 @@
 [input]
-hy1=/samba/prod_info/hy1/%Y%m%d/alpha/alpha_shares.hy1.%Y%m%d
-top250=/home/chenz/production/longonly/0_signal/top250/datafold/%Y%m%d.csv
-mid500=/home/chenz/production/longonly/0_signal/mid500/datafold/%Y%m%d.csv
-botfree=/home/chenz/production/longonly/0_signal/botfree/datafold/%Y%m%d.csv
+yx7_alp=/samba/prod_info/yx7/%Y%m%d/alpha/alpha_shares.yx7.%Y%m%d
+yx7_lin=/samba/prod_info/yx7/%Y%m%d/manual_Lin/manual_Lin_shares.yx7.%Y%m%d
+yx7_fan=/samba/prod_info/yx7/%Y%m%d/manual_Fan/manual_Fan_shares.yx7.%Y%m%d
+yx7_chz=/samba/prod_info/yx7/%Y%m%d/manual_Cz/manual_Cz_shares.yx7.%Y%m%d
 
 IC150_XI=/13data/xipw/XiProduction/optfile_XiIC150_%Y%m%d
 IC150_TR=/13data/moneymaker/product_data/2_optimize/V_IC_150/history/%Y%m%d/optfile
 IC150_CZ=/13data/moneymaker/product_data/2_optimize/V_IC_150_CZ/history/%Y%m%d/optfile
-
-DZ=/home/chenz/production/goldmine/0_signal/DZ/tradestock/%Y%m%d.csv.forshow
 
 [output]
 outfile=datafold/mon_%Y%m%d.xlsx

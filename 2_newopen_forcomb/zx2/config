@@ -1,8 +1,0 @@
-[input]
-target=/home/chenz/production/longonly/1_target_forcomb/zx2/datafold/%Y%m%d.csv
-
-[output]
-pbgj_file=datafold/pbgj_zx2_openComb_%Y%m%d.xls
-pbgf_file=datafold/pbgf_zx2_openComb_%Y%m%d.xls
-xtfs_file=datafold/xtfs_zx2_openComb_%Y%m%d.csv
-csvfile=datafold/zx2_openComb_%Y%m%d.csv

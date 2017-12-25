@@ -1,8 +1,0 @@
-[input]
-limit=0.0001
-
-weight_botfree=100.00
-signal_botfree=/home/chenz/production/longonly/0_signal/botfree/datafold/%Y%m%d.csv
-
-[output]
-outfile=datafold/%Y%m%d.csv

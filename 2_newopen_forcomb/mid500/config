@@ -1,8 +1,0 @@
-[input]
-target=/home/chenz/production/longonly/1_target/mid500/datafold/%Y%m%d.csv
-
-[output]
-pbgj_file=datafold/pbgj_mid500_open_%Y%m%d.xls
-pbgf_file=datafold/pbgf_mid500_open_%Y%m%d.xls
-xtfs_file=datafold/xtfs_mid500_open_%Y%m%d.csv
-csvfile=datafold/mid500_open_%Y%m%d.csv

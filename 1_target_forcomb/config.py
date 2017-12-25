@@ -1,1 +1,0 @@
-/home/chenz/gitstore/longonly/config.py

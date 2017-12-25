@@ -1,8 +1,0 @@
-[input]
-target=/home/chenz/production/longonly/1_target/botfree/datafold/%Y%m%d.csv
-
-[output]
-pbgj_file=datafold/pbgj_botfree_open_%Y%m%d.xls
-pbgf_file=datafold/pbgf_botfree_open_%Y%m%d.xls
-xtfs_file=datafold/xtfs_botfree_open_%Y%m%d.csv
-csvfile=datafold/botfree_open_%Y%m%d.csv

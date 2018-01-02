@@ -1,9 +1,0 @@
-[input]
-target=/home/chenz/production/longonly/1_target/zx2/datafold/%Y%m%d.csv
-holdfile=/samba/prod_info/yx_zx2/%Y%m%d/dz/dz_shares.yx_zx2.%Y%m%d
-ftype=xtfs
-
-[output]
-buyfile=datafold/zx2_adjbuy_%Y%m%d.csv
-selfile=datafold/zx2_adjsel_%Y%m%d.csv
-csvfile=datafold/zx2_adjust_%Y%m%d.csv

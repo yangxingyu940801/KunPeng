@@ -1,25 +1,25 @@
 [input]
 limit=0.0001
 
-weight_ai=2.270
+weight_top250=15.384
+signal_top250=/home/chenz/production/longonly/0_signal/top250/datafold/%Y%m%d.csv
+
+weight_mid500=19.486
+signal_mid500=/home/chenz/production/longonly/0_signal/mid500/datafold/%Y%m%d.csv
+
+weight_botfree=16.410
+signal_botfree=/home/chenz/production/longonly/0_signal/botfree/datafold/%Y%m%d.csv
+
+weight_ai=2.320
 signal_ai=/home/chenz/production/longonly/0_signal/others/AI/datafold/aimodel.csv
 
 weight_bdt=1.000
 signal_bdt=/home/chenz/production/longonly/0_signal/others/BDT/datafold/bdtmodel.csv
 
-weight_botfree=21.635
-signal_botfree=/home/chenz/production/longonly/0_signal/botfree/datafold/%Y%m%d.csv
-
-weight_djl=0.200
+weight_djl=0.210
 signal_djl=/home/chenz/production/longonly/0_signal/others/DJL/datafold/djlmodel.csv
 
-weight_mid500=25.692
-signal_mid500=/home/chenz/production/longonly/0_signal/mid500/datafold/%Y%m%d.csv
-
-weight_top250=20.283
-signal_top250=/home/chenz/production/longonly/0_signal/top250/datafold/%Y%m%d.csv
-
-weight_zz150=3.780
+weight_zz150=3.950
 signal_zz150=/home/chenz/production/longonly/0_signal/others/ZZ150/datafold/zz150.csv
 
 [output]

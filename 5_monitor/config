@@ -1,7 +1,6 @@
 [input]
 yx7_alp=/samba/prod_info/yx7/%Y%m%d/alpha/alpha_shares.yx7.%Y%m%d
 yx7_lin=/samba/prod_info/yx7/%Y%m%d/manual_Lin/manual_Lin_shares.yx7.%Y%m%d
-yx7_fan=/samba/prod_info/yx7/%Y%m%d/manual_Fan/manual_Fan_shares.yx7.%Y%m%d
 yx7_chz=/samba/prod_info/yx7/%Y%m%d/manual_Cz/manual_Cz_shares.yx7.%Y%m%d
 
 IC150_XI=/13data/xipw/XiProduction/optfile_XiIC150_%Y%m%d

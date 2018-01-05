@@ -1,0 +1,8 @@
+[input]
+limit=0.0000
+
+weight_msci=25.680
+signal_msci=/home/chenz/production/longonly/0_signal/others/MSCI/datafold/msci.csv
+
+[output]
+outfile=datafold/%Y%m%d.csv

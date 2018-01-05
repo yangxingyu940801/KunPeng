@@ -1,22 +1,19 @@
 [input]
-limit=0.0001
+limit=0.0000
 
-weight_top250=12.080
+weight_top250=12.060
 signal_top250=/home/chenz/production/longonly/0_signal/top250/datafold/%Y%m%d.csv
 
-weight_mid500=11.050
+weight_mid500=16.040
 signal_mid500=/home/chenz/production/longonly/0_signal/mid500/datafold/%Y%m%d.csv
 
-weight_botfree=16.050
+weight_botfree=16.030
 signal_botfree=/home/chenz/production/longonly/0_signal/botfree/datafold/%Y%m%d.csv
 
 weight_ai=2.000
 signal_ai=/home/chenz/production/longonly/0_signal/others/AI/datafold/aimodel.csv
 
-weight_djl=0.160
-signal_djl=/home/chenz/production/longonly/0_signal/others/DJL/datafold/djlmodel.csv
-
-weight_msci=10.000
+weight_msci=5.000
 signal_msci=/home/chenz/production/longonly/0_signal/others/MSCI/datafold/msci.csv
 
 [output]

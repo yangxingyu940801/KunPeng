@@ -1,5 +1,5 @@
 [input]
-limit=0.0001
+limit=0.00
 
 weight_mid500=100.00
 signal_mid500=/home/chenz/production/longonly/0_signal/mid500/datafold/%Y%m%d.csv

@@ -34,7 +34,7 @@ rsync -avm 0_signal/botfree/datafold/${date}.csv        ${host}/monitor/botfree/
 rsync -avm 2_newopen/top250/datafold/*_open_${date}.*   ${host}/open/top250/
 rsync -avm 2_newopen/mid500/datafold/*_open_${date}.*   ${host}/open/mid500/
 rsync -avm 2_newopen/botfree/datafold/*_open_${date}.*  ${host}/open/botfree/
-for prod in hy1 hy2 hy3 hy5 hy6 hy7 hy10 rzy1; do
+for prod in hy1 hy2 hy3 hy5 hy6 hy7 hy10 rzy1 hywj1; do
   rsync -avm 2_newopen/${prod}/datafold/*_${prod}open_${date}.*                 ${host}/open/${prod}/
   rsync -avm 3_adjust/${prod}/datafold/${prod}_adj[b,s]*_${date}.*              ${host}/adjust/${prod}/
   rsync -avm 4_check/${prod}/datafold/${prod}_check_${date}.csv                 ${host}/adjust/${prod}/

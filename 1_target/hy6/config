@@ -1,5 +1,5 @@
 [input]
-limit=0.0000
+limit=0.0001
 
 weight_top250=12.060
 signal_top250=/home/chenz/production/longonly/0_signal/top250/datafold/%Y%m%d.csv

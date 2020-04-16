@@ -1,0 +1,8 @@
+[input]
+target=/home/chenz/production/longonly/1_target/top250/datafold/%Y%m%d.csv
+
+[output]
+pbgj_file=datafold/pbgj_top250_open_%Y%m%d.xls
+pbgf_file=datafold/pbgf_top250_open_%Y%m%d.xls
+xtfs_file=datafold/xtfs_top250_open_%Y%m%d.csv
+csvfile=datafold/top250_open_%Y%m%d.csv

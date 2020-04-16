@@ -1,0 +1,8 @@
+[input]
+limit=0.0001
+
+weight_ZQ_ZZ1000_HTVR=100.000
+signal_ZQ_ZZ1000_HTVR=/13data/EnhancedIndex/ZZ1000_highTVR/$date/optfile
+
+[output]
+outfile=/home/jiangtz/KunPeng/1_target/kunpeng/datafold/%Y%m%d.csv

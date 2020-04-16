@@ -1,0 +1,5 @@
+[input]
+target=/home/jiangtz/KunPeng/1_target/kunpeng/datafold/%Y%m%d.csv
+
+[output]
+csvfile=/home/jiangtz/KunPeng/2_newopen/kunpeng/datafold/kunpeng_open_%Y%m%d.csv

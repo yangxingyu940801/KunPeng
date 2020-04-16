@@ -1,0 +1,9 @@
+[input]
+target=/home/jiangtz/KunPeng/1_target/kunpeng/datafold/%Y%m%d.csv
+holdfile=/home/jiangtz/KunPeng/Holding/kunpeng_holding_%Y%m%d.csv
+ftype=xtfs
+
+[output]
+buyfile=/home/jiangtz/KunPeng/3_adjust/kunpeng/datafold/kunpeng_adjbuy_%Y%m%d.csv
+selfile=/home/jiangtz/KunPeng/3_adjust/kunpeng/datafold/kunpeng_adjsel_%Y%m%d.csv
+csvfile=/home/jiangtz/KunPeng/3_adjust/kunpeng/datafold/kunpeng_adjust_%Y%m%d.csv

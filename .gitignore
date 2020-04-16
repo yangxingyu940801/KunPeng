@@ -1,0 +1,11 @@
+*.pyc
+*.xls
+*.csv
+*.xlsx
+alpha.py
+alpha.csv
+lo*pnl
+li*pnl
+*.pnl
+*.ignore
+datafold
